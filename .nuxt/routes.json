@@ -1,0 +1,30 @@
+[
+  {
+    "name": "food",
+    "path": "/food",
+    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\food.vue",
+    "chunkName": "pages/food",
+    "_name": "_6ec15c5e"
+  },
+  {
+    "name": "sights",
+    "path": "/sights",
+    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\sights.vue",
+    "chunkName": "pages/sights",
+    "_name": "_17eac929"
+  },
+  {
+    "name": "towns",
+    "path": "/towns",
+    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\towns.vue",
+    "chunkName": "pages/towns",
+    "_name": "_22f6ebbe"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5ff96bef"
+  }
+]
