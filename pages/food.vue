@@ -1,12 +1,11 @@
 <template>
-  <div>
-    <Background />
-    <NavBar />
+  <div class="container">
+    <h1>Food</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "IndexPage",
+  name: "NavBar",
 };
 </script>
