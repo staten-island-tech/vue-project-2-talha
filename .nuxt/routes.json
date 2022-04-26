@@ -1,30 +1,37 @@
 [
   {
-    "name": "food",
-    "path": "/food",
-    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\food.vue",
-    "chunkName": "pages/food",
-    "_name": "_6ec15c5e"
-  },
-  {
     "name": "sights",
     "path": "/sights",
-    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\sights.vue",
+    "component": "C:\\\\Users\\\\chaud\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\sights.vue",
     "chunkName": "pages/sights",
-    "_name": "_17eac929"
+    "_name": "_33a11c8a"
   },
   {
     "name": "towns",
     "path": "/towns",
-    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\towns.vue",
+    "component": "C:\\\\Users\\\\chaud\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\towns.vue",
     "chunkName": "pages/towns",
-    "_name": "_22f6ebbe"
+    "_name": "_0fdc2e28"
+  },
+  {
+    "name": "blogs-food",
+    "path": "/blogs/food",
+    "component": "C:\\\\Users\\\\chaud\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\blogs\\\\food.vue",
+    "chunkName": "pages/blogs/food",
+    "_name": "_445583ba"
+  },
+  {
+    "name": "blogs-slug",
+    "path": "/blogs/:slug?",
+    "component": "C:\\\\Users\\\\chaud\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\blogs\\\\_slug.vue",
+    "chunkName": "pages/blogs/_slug",
+    "_name": "_5952d5de"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\chaud\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_5ff96bef"
+    "_name": "_3514691d"
   }
 ]

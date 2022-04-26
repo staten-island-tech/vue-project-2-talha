@@ -9,13 +9,7 @@
 </template>
 
 <script>
-// import NavBar from "../components/NavBar.vue";
-export default {
-  // name: "NavBar",
-  // components: {
-  //   NavBar,
-  // },
-};
+export default {};
 </script>
 
 <style scoped>

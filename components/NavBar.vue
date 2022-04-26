@@ -3,7 +3,7 @@
     <div class="navbar">
       <div class="nav-links">
         <NuxtLink to="/" class="button-1">Home page</NuxtLink>
-        <NuxtLink to="/Food" class="button-1"> Food </NuxtLink>
+        <NuxtLink to="/blogs/Food" class="button-1"> Food </NuxtLink>
         <NuxtLink to="/Sights" class="button-1"> Sight-Seeing </NuxtLink>
         <NuxtLink to="/Towns" class="button-1"> Towns </NuxtLink>
       </div>
