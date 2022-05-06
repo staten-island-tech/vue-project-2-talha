@@ -1,7 +1,7 @@
 <template>
   <div>
       <NavBar />
- <h1 cass="title">Sights</h1>
+ <h1 class="title">Sights</h1>
     </div>
 </template>
 
@@ -12,10 +12,10 @@ export default {};
 <style scoped>
 .title {
   position: relative;
-  top: 30%;
-  left: 40%;
+  top: 3rem;
+  left: 3rem;
   color: white;
-  font-size: 10rem;
+  font-size: 7rem;
   -webkit-text-stroke: 3px rgb(158, 60, 60);
 }
 </style>
