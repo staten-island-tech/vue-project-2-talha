@@ -28,5 +28,7 @@ export default {};
   color: white;
   font-size: 10rem;
   -webkit-text-stroke: 3px rgb(158, 60, 60);
+  font-family: 'Ubuntu', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 </style>

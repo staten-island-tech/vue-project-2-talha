@@ -2,10 +2,10 @@
   <nav>
     <div class="navbar">
       <div class="nav-links">
-        <NuxtLink to="/" class="button-1">Home page</NuxtLink>
+        <NuxtLink to="/" class="button-1">Home Page</NuxtLink>
         <NuxtLink to="/blogs/Food" class="button-1"> Food </NuxtLink>
-        <NuxtLink to="/Sights" class="button-1"> Sight-Seeing </NuxtLink>
-        <NuxtLink to="/Towns" class="button-1"> Towns </NuxtLink>
+        <NuxtLink to="/Sights" class="button-1">Sight-Seeing</NuxtLink>
+        <NuxtLink to="/Towns" class="button-1">Towns</NuxtLink>
       </div>
     </div>
   </nav>
@@ -47,8 +47,7 @@ export default {
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: normal;
@@ -74,4 +73,6 @@ export default {
   box-shadow: none;
   transform: translateY(0);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
+    <sightsBackground />
       <NavBar />
- <h1 class="title">Sights</h1>
     </div>
 </template>
 

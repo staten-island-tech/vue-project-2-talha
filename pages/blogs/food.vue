@@ -1,8 +1,7 @@
 <template>
   <div>
+      <FoodBackground />
       <NavBar />
-     
- <h1 class="title">Food</h1>
     </div>
 </template>
 

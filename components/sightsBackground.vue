@@ -1,6 +1,6 @@
 <template>
   <div class="background">
-    <h1 class="title">Food</h1>
+    <h1 class="title">Sights</h1>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {};
 
 <style scoped>
 .background {
-  background-image: url("https://res.cloudinary.com/dkbidvnps/image/upload/v1651859462/image_uhnnqz.png");
+  background-image: url("https://res.cloudinary.com/dkbidvnps/image/upload/v1652117822/colosseum-alexandrakorey_q7klvo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
