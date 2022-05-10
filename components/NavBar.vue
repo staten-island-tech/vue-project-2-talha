@@ -36,12 +36,12 @@ export default {
   padding: 0.5rem;
   background-color: #fff;
   border-bottom: 1px solid #ccc;
-  background-color: #1d3e80;
+  background-color: rgb(158, 60, 60);
 }
 
 .button-1 {
   appearance: none;
-  background-color: #215bcf;
+  background-color: rgb(194, 93, 93);
   border: 2px solid #2a324b;
   border-radius: 1rem;
   box-sizing: border-box;
