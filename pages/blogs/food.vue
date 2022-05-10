@@ -6,7 +6,29 @@
 </template>
 
 <script>
-export default {};
+export default {
+  // name: 'FoodPage',
+  // data() {
+  //   return {
+  //     articles: [],
+  //   }
+  // },
+  // head() {
+  //   return {
+  //     title: 'Food Blog',
+  //     meta: [
+  //       {
+  //         hid: 'description',
+  //         name: 'description',
+  //         content: 'blog content here',
+  //       }
+  //     ]
+  //   }
+  // },
+  // async fetch() {
+  //   this.articles = await this.$content('articles').fetch()
+  // }
+};
 </script>
 
 <style scoped>
