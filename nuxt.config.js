@@ -27,23 +27,10 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ['@nuxtjs/color-mode'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxt/content", 'nuxtjs/tailwindcss', 'nuxtjs/color-mode'],
-
-  colorMode: {
-    classSuffix: ''
-  },
-
-  tailwindcss: {
-    cssPath: '~/assets/css/tailwind.css',
-    configPath: 'tailwind.config.js',
-    exposeConfig: false,
-    config: {},
-    injectPosition: 0,
-    viewer: true,
-  },
+  modules: ["@nuxt/content"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
