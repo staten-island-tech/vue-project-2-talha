@@ -6,6 +6,9 @@
         <NuxtLink to="/blogs/Food" class="button-1">Food</NuxtLink>
         <NuxtLink to="/Sights" class="button-1">Sight-Seeing</NuxtLink>
         <NuxtLink to="/Towns" class="button-1">Towns</NuxtLink>
+        <option value="dark" class="button-1">Dark</option>
+        <option value="light" class="button-1">Light</option>
+        <option value="system" class="button-1">System</option>
       </div>
     </div>
   </nav>
@@ -18,15 +21,16 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
+.dark-mode .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100px;
-  background-color: #fff;
+  background-color: rgb(255, 241, 241);
   z-index: 10;
 }
+
 .nav-links {
   display: flex;
   justify-content: center;
@@ -38,7 +42,9 @@ export default {
   border-bottom: 1px solid #ccc;
   background-color: rgb(158, 60, 60);
 }
-
+.dark-mode select {
+  background-color: black ;
+}
 .button-1 {
   appearance: none;
   background-color: rgb(194, 93, 93);
