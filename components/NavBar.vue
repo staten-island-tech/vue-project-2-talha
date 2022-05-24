@@ -3,9 +3,14 @@
     <div class="navbar">
       <div class="nav-links">
         <NuxtLink to="/" class="button-1">Home Page</NuxtLink>
-        <NuxtLink to="/blogs/Food" class="button-1"> Food </NuxtLink>
+        <NuxtLink to="/blogs/Food" class="button-1">Food</NuxtLink>
         <NuxtLink to="/Sights" class="button-1">Sight-Seeing</NuxtLink>
         <NuxtLink to="/Towns" class="button-1">Towns</NuxtLink>
+        <select v-model="$colorMode.preference">
+          <option value="dark" class="button-1">Dark</option>
+          <option value="light" class="button-1">Light</option>
+          <option value="system" class="button-1">System</option>
+        </select>
       </div>
     </div>
   </nav>
@@ -15,17 +20,38 @@
 export default {
   name: "NavBar",
 };
+
 </script>
 
 <style scoped>
-.navbar {
+.dark-mode .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100px;
-  background-color: #fff;
+  background-color: rgb(31, 29, 29);
   z-index: 10;
+}
+.light-mode .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(255, 241, 241);
+  z-index: 10;
+}
+
+.dark-mode .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  background-color: rgb(24, 20, 20);
 }
 .nav-links {
   display: flex;
@@ -34,9 +60,8 @@ export default {
   width: 100vw;
   height: 100%;
   padding: 0.5rem;
-  background-color: #fff;
   border-bottom: 1px solid #ccc;
-  background-color: rgb(158, 60, 60);
+  background-color: rgb(179, 48, 48);
 }
 
 .button-1 {

@@ -16,5 +16,10 @@
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27530716.c4f8671",
+    "@nuxtjs/color-mode": "^2.1.1",
+    "@nuxtjs/tailwindcss": "^5.0.0-4"
   }
 }
