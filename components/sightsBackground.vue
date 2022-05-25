@@ -9,6 +9,7 @@ export default {};
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 .background {
   background-image: url("https://res.cloudinary.com/dkbidvnps/image/upload/v1652117822/colosseum-alexandrakorey_q7klvo.jpg");
   background-size: cover;
@@ -31,5 +32,4 @@ export default {};
   -webkit-text-stroke: 3px rgb(158, 60, 60);
   font-family: 'Ubuntu', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 </style>

@@ -1,68 +1,55 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _2d620c5c = () => interopDefault(import('..\\pages\\sights.vue' /* webpackChunkName: "pages/sights" */))
-const _f27e13aa = () => interopDefault(import('..\\pages\\towns.vue' /* webpackChunkName: "pages/towns" */))
-const _ed21348e = () => interopDefault(import('..\\pages\\blogs\\food.vue' /* webpackChunkName: "pages/blogs/food" */))
-const _91159882 = () => interopDefault(import('..\\pages\\blogs\\_slug.vue' /* webpackChunkName: "pages/blogs/_slug" */))
-const _78791348 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _3760eeca = () => interopDefault(import('../pages/sights.vue' /* webpackChunkName: "pages/sights" */))
+const _7c23760c = () => interopDefault(import('../pages/towns.vue' /* webpackChunkName: "pages/towns" */))
+const _0495b741 = () => interopDefault(import('../pages/blogs/food.vue' /* webpackChunkName: "pages/blogs/food" */))
+const _bdcdd992 = () => interopDefault(import('../pages/blogs/_slug.vue' /* webpackChunkName: "pages/blogs/_slug" */))
+const _8db41386 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
+// TODO: remove in Nuxt 3
 const emptyFn = () => {}
+const originalPush = Router.prototype.push
+Router.prototype.push = function push (location, onComplete = emptyFn, onAbort) {
+  return originalPush.call(this, location, onComplete, onAbort)
+}
 
 Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '/',
+  base: decodeURI('/'),
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
 
   routes: [{
     path: "/sights",
-    component: _2d620c5c,
+    component: _3760eeca,
     name: "sights"
   }, {
     path: "/towns",
-    component: _f27e13aa,
+    component: _7c23760c,
     name: "towns"
   }, {
     path: "/blogs/food",
-    component: _ed21348e,
+    component: _0495b741,
     name: "blogs-food"
   }, {
     path: "/blogs/:slug?",
-    component: _91159882,
+    component: _bdcdd992,
     name: "blogs-slug"
   }, {
     path: "/",
-    component: _78791348,
+    component: _8db41386,
     name: "index"
   }],
 
   fallback: false
 }
 
-export function createRouter (ssrContext, config) {
-  const base = (config._app && config._app.basePath) || routerOptions.base
-  const router = new Router({ ...routerOptions, base  })
-
-  // TODO: remove in Nuxt 3
-  const originalPush = router.push
-  router.push = function push (location, onComplete = emptyFn, onAbort) {
-    return originalPush.call(this, location, onComplete, onAbort)
-  }
-
-  const resolve = router.resolve.bind(router)
-  router.resolve = (to, current, append) => {
-    if (typeof to === 'string') {
-      to = normalizeURL(to)
-    }
-    return resolve(to, current, append)
-  }
-
-  return router
+export function createRouter () {
+  return new Router(routerOptions)
 }
