@@ -18,6 +18,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 .navbar {
   position: fixed;
   top: 0;
@@ -73,6 +74,4 @@ export default {
   box-shadow: none;
   transform: translateY(0);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 </style>
