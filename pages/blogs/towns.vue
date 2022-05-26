@@ -1,7 +1,8 @@
 <template>
   <div>
     <townsBackground />
-      <NavBar />
+    <NavBar />
+    <towns-articles />
     </div>
 </template>
 

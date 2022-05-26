@@ -2,10 +2,9 @@
   <nav>
     <div class="navbar">
       <div class="nav-links">
-        <NuxtLink to="/" class="button-1">Home Page</NuxtLink>
-        <NuxtLink to="/blogs/food" class="button-1">Food</NuxtLink>
-        <NuxtLink to="/blogs/sights" class="button-1">Sight-Seeing</NuxtLink>
-        <NuxtLink to="/blogs/towns" class="button-1">Towns</NuxtLink>
+        <NuxtLink to="/blogs/colloseum-blog" class="button-2">The Roman Colloseum</NuxtLink>
+        <NuxtLink to="/blogs/canal-blog" class="button-2">The Grand Canal in Venice</NuxtLink>
+        <NuxtLink to="/blogs/pisa-blog" class="button-2">The Leaning Tower of Pisa</NuxtLink>
       </div>
     </div>
   </nav>
@@ -20,8 +19,8 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 .navbar {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 87%;
   left: 0;
   width: 100vw;
   height: 100px;
@@ -40,7 +39,7 @@ export default {
   background-color: rgb(158, 60, 60);
 }
 
-.button-1 {
+.button-2 {
   appearance: none;
   background-color: rgb(194, 93, 93);
   border: 2px solid #2a324b;

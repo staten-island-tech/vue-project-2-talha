@@ -20,7 +20,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 .navbar {
   position: absolute;
-  top: 90%;
+  top: 87%;
   left: 0;
   width: 100vw;
   height: 100px;

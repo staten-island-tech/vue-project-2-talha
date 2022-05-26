@@ -1,7 +1,8 @@
 <template>
   <div>
     <sightsBackground />
-      <NavBar />
+    <NavBar />
+    <sights-articles />
     </div>
 </template>
 
