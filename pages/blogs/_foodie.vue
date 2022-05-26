@@ -1,5 +1,8 @@
 <template>
-    
+    <div class="post">
+    <h1>{{ article.title }}</h1>
+    <nuxt-content :document="article" />
+  </div>
 </template>
 
 <script>
@@ -7,7 +10,7 @@
 async asyncData({ $content, params, error }) {
   try {
     const [article] = await $content({ deep: true })
-      .where({ dir: `/${params.food-2}` })
+      .where({ dir: `/${params.foodie}` })
       .fetch()
     const moreStories = await $content({ deep: true })
       .only(['title', 'image', 'path'])
@@ -26,3 +29,13 @@ async asyncData({ $content, params, error }) {
   }
 </script>
 
+<style scoped>
+.post {
+  position: relative;
+  top: 3rem;
+  left: 3rem;
+  color: white;
+  font-size: 7rem;
+  -webkit-text-stroke: 3px rgb(158, 60, 60);
+}
+</style>
