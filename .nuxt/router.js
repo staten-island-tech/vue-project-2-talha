@@ -7,7 +7,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _3760eeca = () => interopDefault(import('../pages/sights.vue' /* webpackChunkName: "pages/sights" */))
 const _7c23760c = () => interopDefault(import('../pages/towns.vue' /* webpackChunkName: "pages/towns" */))
 const _2215b92c = () => interopDefault(import('../pages/blogs/_food.vue' /* webpackChunkName: "pages/blogs/_food" */))
-const _bdcdd992 = () => interopDefault(import('../pages/blogs/_slug.vue' /* webpackChunkName: "pages/blogs/_slug" */))
+const _69d85606 = () => interopDefault(import('../pages/blogs/_foodie.vue' /* webpackChunkName: "pages/blogs/_foodie" */))
 const _8db41386 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -34,9 +34,9 @@ export const routerOptions = {
     component: _2215b92c,
     name: "blogs-food"
   }, {
-    path: "/blogs/:slug?",
-    component: _bdcdd992,
-    name: "blogs-slug"
+    path: "/blogs/:foodie?",
+    component: _69d85606,
+    name: "blogs-foodie"
   }, {
     path: "/",
     component: _8db41386,
