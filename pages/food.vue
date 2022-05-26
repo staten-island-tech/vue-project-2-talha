@@ -13,36 +13,36 @@
 </template>
 
 <script>
-// export default {
-//   name: 'FoodPage',
-//   data() {
-//     return {
-//       articles: [],
-//     }
-//   },
-//   head() {
-//     return {
-//       title: 'Food Blog',
-//       meta: [
-//         {
-//           hid: 'description',
-//           name: 'description',
-//           content: 'blog content here',
-//         }
-//       ]
-//     }
-//   },
-//   async fetch() {
-//     this.articles = await this.$content('articles').fetch()
-//   }
-// };
 export default {
-  async asyncData({ $content, params }) {
-    const article = await $content("articles", params.slug).fetch();
-
-    return { article };
+  name: 'FoodPage',
+  data() {
+    return {
+      articles: [],
+    }
+  },
+  head() {
+    return {
+      title: 'Food Blog',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'blog content here',
+        }
+      ]
+    }
+  },
+  async fetch() {
+    this.articles = await this.$content('articles').fetch()
   }
-}
+};
+// export default {
+//   async asyncData({ $content, params }) {
+//     const article = await $content("articles", params.slug).fetch();
+
+//     return { article };
+//   }
+// }
 </script>
 
 <style scoped>

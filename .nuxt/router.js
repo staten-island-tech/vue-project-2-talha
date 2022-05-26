@@ -4,9 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _dc9d747a = () => interopDefault(import('../pages/food.vue' /* webpackChunkName: "pages/food" */))
 const _3760eeca = () => interopDefault(import('../pages/sights.vue' /* webpackChunkName: "pages/sights" */))
 const _7c23760c = () => interopDefault(import('../pages/towns.vue' /* webpackChunkName: "pages/towns" */))
-const _2215b92c = () => interopDefault(import('../pages/blogs/_food.vue' /* webpackChunkName: "pages/blogs/_food" */))
 const _bdcdd992 = () => interopDefault(import('../pages/blogs/_slug.vue' /* webpackChunkName: "pages/blogs/_slug" */))
 const _8db41386 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -22,6 +22,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/food",
+    component: _dc9d747a,
+    name: "food"
+  }, {
     path: "/sights",
     component: _3760eeca,
     name: "sights"
@@ -29,10 +33,6 @@ export const routerOptions = {
     path: "/towns",
     component: _7c23760c,
     name: "towns"
-  }, {
-    path: "/blogs/:food?",
-    component: _2215b92c,
-    name: "blogs-food"
   }, {
     path: "/blogs/:slug?",
     component: _bdcdd992,
