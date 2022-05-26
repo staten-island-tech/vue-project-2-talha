@@ -2,6 +2,7 @@
   <div>
       <FoodBackground />
       <NavBar />
+      <food-articles />
     </div>
 </template>
 
