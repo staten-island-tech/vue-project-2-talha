@@ -5,21 +5,21 @@ img: first-blog-post.jpg
 alt: my first blog post
 ---
 
-# What is pasta
+# The tower
 
-Pasta (US: /ˈpɑːstə/, UK: /ˈpæstə/; Italian pronunciation: [ˈpasta]) is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking. Rice flour, or legumes such as beans or lentils, are sometimes used in place of wheat flour to yield a different taste and texture, or as a gluten-free alternative. Pasta is a staple food of Italian cuisine.[1][2]
+The Leaning Tower of Pisa (Italian: torre pendente di Pisa), or simply, the Tower of Pisa (torre di Pisa [ˈtorre di ˈpiːza; ˈpiːsa][1]), is the campanile, or freestanding bell tower, of Pisa Cathedral. It is known for its nearly four-degree lean, the result of an unstable foundation. The tower is one of three structures in the Pisa's Cathedral Square (Piazza del Duomo), which includes the cathedral and Pisa Baptistry.
 
-Pastas are divided into two broad categories: dried (pasta secca) and fresh (pasta fresca). Most dried pasta is produced commercially via an extrusion process, although it can be produced at home. Fresh pasta is traditionally produced by hand, sometimes with the aid of simple machines.[3] Fresh pastas available in grocery stores are produced commercially by large-scale machines.
+The height of the tower is 55.86 metres (183 feet 3 inches) from the ground on the low side and 56.67 m (185 ft 11 in) on the high side. The width of the walls at the base is 2.44 m (8 ft 0 in). Its weight is estimated at 14,500 tonnes (16,000 short tons).[2] The tower has 296 or 294 steps; the seventh floor has two fewer steps on the north-facing staircase.
 
-Both dried and fresh pastas come in a number of shapes and varieties, with 310 specific forms known by over 1,300 documented names.[4] In Italy, the names of specific pasta shapes or types often vary by locale. For example, the pasta form cavatelli is known by 28 different names depending upon the town and region. Common forms of pasta include long and short shapes, tubes, flat shapes or sheets, miniature shapes for soup, those meant to be filled or stuffed, and specialty or decorative shapes.[
+The tower began to lean during construction in the 12th century, due to soft ground which could not properly support the structure's weight. It worsened through the completion of construction in the 14th century. By 1990, the tilt had reached 5.5 degrees.[3][4][5] The structure was stabilized by remedial work between 1993 and 2001, which reduced the tilt to 3.97 degrees.[6]
 
-## As Cuisine
+## Architectural Info
 
-As a category in Italian cuisine, both fresh and dried pastas are classically used in one of three kinds of prepared dishes: as pasta asciutta (or pastasciutta), cooked pasta is plated and served with a complementary sauce or condiment; a second classification of pasta dishes is pasta in brodo, in which the pasta is part of a soup-type dish. A third category is pasta al forno, in which the pasta is incorporated into a dish that is subsequently baked in the oven.[6] Pasta dishes are generally simple, but individual dishes vary in preparation. Some pasta dishes are served as a small first course or for light lunches, such as pasta salads. Other dishes may be portioned larger and used for dinner. Pasta sauces similarly may vary in taste, color and texture.[7]
+There has been controversy surrounding the identity of the architect of the Leaning Tower of Pisa. For many years, the design was attributed to Guglielmo and Bonanno Pisano,[7] a well-known 12th-century resident artist of Pisa, known for his bronze casting, particularly in the Pisa Duomo.[citation needed] Pisano left Pisa in 1185 for Monreale, Sicily, only to come back and die in his home town. A piece of cast bearing his name was discovered at the foot of the tower in 1820, but this may be related to the bronze door in the façade of the cathedral that was destroyed in 1595. A 2001 study seems to indicate Diotisalvi was the original architect, due to the time of construction and affinity with other Diotisalvi works, notably the bell tower of San Nicola and the Baptistery, both in Pisa
 
-### Etymology
+### Construction
 
-First attested in English in 1874, the word "pasta" comes from Italian pasta, in turn from Latin pasta, latinisation of the Greek παστά (pasta) "barley porridge".
+Construction of the tower occurred in three stages over 199 years. On 5 January 1172, Donna Berta di Bernardo, a widow and resident of the house of dell'Opera di Santa Maria, bequeathed sixty soldi to the Opera Campanilis petrarum Sancte Marie. The sum was then used toward the purchase of a few stones which still form the base of the bell tower.[9] On 9 August 1173, the foundations of the tower were laid.[10] Work on the ground floor of the white marble campanile began on 14 August of the same year during a period of military success and prosperity. This ground floor is a blind arcade articulated by engaged columns with classical Corinthian capitals.[citation needed] Nearly four centuries later Giorgio Vasari wrote: "Guglielmo, according to what is being said, in the year 1174, together with sculptor Bonanno, laid the foundations of the bell tower of the cathedral in Pisa".[11]
 
 ### History
 
@@ -27,6 +27,6 @@ In the 1st century AD writings of Horace, lagana (singular: laganum) were fine s
 
 Historians have noted several lexical milestones relevant to pasta, none of which changes these basic characteristics. For example, the works of the 2nd century AD Greek physician Galen mention itrion, homogeneous compounds made of flour and water.[12] The Jerusalem Talmud records that itrium, a kind of boiled dough,[12] was common in Palestine from the 3rd to 5th centuries AD.[13] A dictionary compiled by the 9th century Arab physician and lexicographer Isho bar Ali[14] defines itriyya, the Arabic cognate, as string-like shapes made of semolina and dried before cooking. The geographical text of Muhammad al-Idrisi, compiled for the Norman King of Sicily Roger II in 1154 mentions itriyya manufactured and exported from Norman Sicily:
 
-## Origins
+## Earthquakes
 
-In North Africa, a food similar to pasta, known as couscous, has been eaten for centuries. However, it lacks the distinguishing malleable nature of pasta, couscous being more akin to droplets of dough. At first, dry pasta was a luxury item in Italy because of high labor costs; durum wheat semolina had to be kneaded for a long time.
+At least four strong earthquakes have hit the region since 1280, but the apparently vulnerable Tower survived. The reason was not understood until a research group of 16 engineers investigated. The researchers concluded that the Tower was able to withstand the tremors because of dynamic soil-structure interaction (DSSI): the height and stiffness of the Tower, together with the softness of the foundation soil, influences the vibrational characteristics of the structure in such a way that the Tower does not resonate with earthquake ground motion. The same soft soil that caused the leaning and brought the Tower to the verge of collapse helped it survive.[36]
