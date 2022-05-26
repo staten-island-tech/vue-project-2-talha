@@ -2,36 +2,36 @@
   {
     "name": "blogs-food",
     "path": "/blogs/food",
-    "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/blogs/food.vue",
+    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\blogs\\\\food.vue",
     "chunkName": "pages/blogs/food",
-    "_name": "_0495b741"
+    "_name": "_20cda10c"
   },
   {
     "name": "blogs-sights",
     "path": "/blogs/sights",
-    "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/blogs/sights.vue",
+    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\blogs\\\\sights.vue",
     "chunkName": "pages/blogs/sights",
-    "_name": "_2fdd9299"
+    "_name": "_1dc235a4"
   },
   {
     "name": "blogs-towns",
     "path": "/blogs/towns",
-    "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/blogs/towns.vue",
+    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\blogs\\\\towns.vue",
     "chunkName": "pages/blogs/towns",
-    "_name": "_65cd344e"
+    "_name": "_5edaf83a"
   },
   {
     "name": "blogs-slug",
     "path": "/blogs/:slug?",
-    "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/blogs/_slug.vue",
+    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\blogs\\\\_slug.vue",
     "chunkName": "pages/blogs/_slug",
-    "_name": "_bdcdd992"
+    "_name": "_0bde62cc"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/index.vue",
+    "component": "C:\\\\Users\\\\TGondal\\\\Documents\\\\GitHub\\\\vue-project-2-talha\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_8db41386"
+    "_name": "_5ff96bef"
   }
 ]
