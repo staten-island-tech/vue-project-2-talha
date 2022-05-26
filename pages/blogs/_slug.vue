@@ -3,11 +3,7 @@
     <nav>
       <div class="con">
         <h2>Table of Contents</h2>
-      <ul >
-        <li v-for="link of article.toc" :key="link.id" class="links">
-          <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
-        </li>
-      </ul>
+
       </div>
     </nav>
     <h1>{{ article.title }}</h1>
