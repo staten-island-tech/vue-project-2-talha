@@ -1,7 +1,7 @@
 ---
 title: First Food Blog
 description: Pasta is yummy
-img: first-blog-post.jpg
+img: https://res.cloudinary.com/dkbidvnps/image/upload/v1653521559/20210118-161206-Cobbler-Bella-Napoli-1_ricpwk.jpg
 alt: my first blog post
 ---
 
