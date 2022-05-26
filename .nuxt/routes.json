@@ -3,35 +3,30 @@
     "name": "food",
     "path": "/food",
     "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/food.vue",
-    "chunkName": "pages/food",
-    "_name": "_dc9d747a"
+    "chunkName": "pages/food"
   },
   {
     "name": "sights",
     "path": "/sights",
     "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/sights.vue",
-    "chunkName": "pages/sights",
-    "_name": "_3760eeca"
+    "chunkName": "pages/sights"
   },
   {
     "name": "towns",
     "path": "/towns",
     "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/towns.vue",
-    "chunkName": "pages/towns",
-    "_name": "_7c23760c"
+    "chunkName": "pages/towns"
   },
   {
     "name": "blogs-slug",
     "path": "/blogs/:slug?",
     "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/blogs/_slug.vue",
-    "chunkName": "pages/blogs/_slug",
-    "_name": "_bdcdd992"
+    "chunkName": "pages/blogs/_slug"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/admin/Documents/GitHub/vue-project-2-talha/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_8db41386"
+    "chunkName": "pages/index"
   }
 ]

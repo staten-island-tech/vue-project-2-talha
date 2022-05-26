@@ -2,12 +2,12 @@
   <div>
       <FoodBackground />
       <NavBar />
-    <article>
+    <!-- <article>
     <h1>{{ article.title }}</h1>
     <p>{{ article.description }}</p>
     <img :src="article.img" :alt="article.alt" />
-    <nuxt-content :document="article" />
-  </article>
+    <nuxt-content :document="article" /> -->
+  <!-- </article> -->
     </div>
     
 </template>
